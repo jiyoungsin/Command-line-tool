@@ -57,6 +57,7 @@ $ python main.py lint-code
 ```
 
 
+
 # Optional Features Include:
 
 1. Option -h or --help will return the help page.
