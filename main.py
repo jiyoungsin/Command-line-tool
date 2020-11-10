@@ -1,5 +1,7 @@
 import os
+
 import click
+
 import functions
 
 
@@ -37,7 +39,9 @@ def check_urls(endpoint, ignorfile):
     """
     Check urls retrieved from ENDPOINT.
     """
-    ignore_urls_set = set(functions.get_urls_from_file(ignorfile)) if ignorfile else set()
+    ignore_urls_set = (
+        set(functions.get_urls_from_file(ignorfile)) if ignorfile else set()
+    )
 
     urls = functions.get_urls_from_url(endpoint)
     urls = set(urls).difference(set(ignore_urls_set))
