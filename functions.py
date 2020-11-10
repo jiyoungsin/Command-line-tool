@@ -5,15 +5,19 @@ import requests
 
 # GETTERS
 def get_response_code(url):
+    """
+    returns response code
+    """
     header = requests.head(url)
     return header.status_code
 
 
 def get_urls_from_url(url: str) -> List[str]:
+    """
+    Takes a URL and retrieves a json object that includes other urls
+    """
     url_obj = urlparse(url)
     data = requests.get(url).json()
-    # for entry in data:
-    #     list_of_urls.append(f"{url_obj.scheme}://{url_obj.netloc}{entry['url']}")
     return [f"{url_obj.scheme}://{url_obj.netloc}{entry['url']}" for entry in data]
 
 
@@ -30,6 +34,9 @@ def get_urls_from_file(path: str) -> List[str]:
 
 
 def check_urls(list_of_urls):
+    """
+    Returns a list of response codes
+    """
     return [{url: get_response_code(url)} for url in list_of_urls]
 
 
