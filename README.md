@@ -25,7 +25,7 @@ NOTE: This project will only works with Python version 3.7 and above.
 Command Line Interface
 
 
-![OSDgif](https://user-images.githubusercontent.com/44411777/93946180-9171b200-fd06-11ea-90fe-06c34cbee5c5.gif)
+![gif](https://user-images.githubusercontent.com/44411777/98872293-4a6d8680-2444-11eb-9cf2-3a2f2941bb60.gif)
 
 
 
