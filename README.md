@@ -64,6 +64,13 @@ This function is the main functionality of the program.
 $ python main.py check-urls https://telescope.cdot.systems/posts
 ```
 
+### ignore function
+![ignoregif](https://user-images.githubusercontent.com/44411777/98873359-3e82c400-2446-11eb-90c0-aca4fe558296.gif)
+This function is the main functionality of the program plus the ignore functionality.
+```sh
+$ python main.py check-urls -i <FileName> https://telescope.cdot.systems/posts
+```
+
 ### format-code function
 
 This function will format your code for you!
@@ -76,6 +83,7 @@ This function will lint your code for you!
 ```sh
 $ python main.py lint-code
 ```
+
 
 # Coming soon!
 Any ideas are welcome!
