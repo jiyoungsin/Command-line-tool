@@ -42,6 +42,20 @@ Using the power of the library click we can add decorators to our functions. Thi
 For example, "-v" or "--version" using the click object we can create a simple version_option decorator.
 We check the status code of each URL we requested and display the data in color.
 
+```sh
+$ python main.py check-urls https://telescope.cdot.systems/posts
+```
+
+How to format your code.
+```sh
+$ python main.py format-code
+```
+
+How to lint your code.
+```sh
+$ python main.py lint-code
+```
+
 
 
 # Optional Features Include:
