@@ -38,8 +38,10 @@ Create a command-line tool to check links status codes in python.
 
 # How It Works
 
-Using the power of the library click we can add decorators to our functions. This allows us to simplify the command line arguments.
-For example, "-v" or "--version" using the click object we can create a simple version_option decorator.
+Using the power of the library click we can add decorators to our functions. Decorators are a wrapper function that allows us to do functions before other functions.This library helps us to simplify this command line argument repository.
+For example, the click library allows us to type "-v" or "--version" using their built in simple version_option decorator. This writes all the background code for us. It is a black box, however, if we read the documentation of how click works it is very straight forward.
+
+How does this program work? 
 We check the status code of each URL we requested and display the data in color.
 
 
