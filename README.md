@@ -86,6 +86,12 @@ This function will lint your code for you!
 $ python main.py lint-code
 ```
 
+### Testing function
+
+This function will test your code for you!
+```sh
+$ python main_test.py 
+```
 
 # Coming soon!
 Any ideas are welcome!
